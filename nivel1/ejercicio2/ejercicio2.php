@@ -12,7 +12,7 @@ $rectangle = new Rectangle(20,10);
 echo "Rectangle area: " . $rectangle->calculateArea();
 echo PHP_EOL;
 
-echo "Triangle base: " . $rectangle->getBase() . PHP_EOL;
+echo "Triangle base: " . $triangle->getBase() . PHP_EOL;
 echo "Rectangle height: " . $rectangle->getHeight() . PHP_EOL;
  
 
