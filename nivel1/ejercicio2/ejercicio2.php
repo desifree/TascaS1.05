@@ -1,7 +1,8 @@
 <?php
 
-require_once "Rectangle.php";
 require_once "Shape.php";
+require_once "Rectangle.php";
+require_once "Triangle.php";
 
 $triangle = new Triangle(20,10);
 echo "Triangle area: " . $triangle->calculateArea();
@@ -11,7 +12,7 @@ $rectangle = new Rectangle(20,10);
 echo "Rectangle area: " . $rectangle->calculateArea();
 echo PHP_EOL;
 
-echo "Triangle base: " . $rectagle->getBase() . PHP_EOL;
+echo "Triangle base: " . $rectangle->getBase() . PHP_EOL;
 echo "Rectangle height: " . $rectangle->getHeight() . PHP_EOL;
  
 
