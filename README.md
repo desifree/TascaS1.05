@@ -1,29 +1,19 @@
-Objetivos
-Aplicar el uso de clases abstractas e interfaces en PHP.
+# S1.05 – Clases Abstractas e Interfaces
+** Descripción: ** 
+Práctica de PHP enfocada en herencia, clases abstractas e interfaces aplicadas a distintos modelos orientados a objetos.
 
-Nivel 1
-Ejercicio 1
-Necesitamos crear un tipo de datos que represente a un animal. Los animales tienen un nombre y "hablan". Sin embargo, debemos tener en cuenta que no es lo mismo el sonido de la “habla” de un perro, que el de un gato, por ejemplo. Por tanto, necesitamos crear otros tipos de datos que nos ayuden a programar estos comportamientos entre diferentes animales.
+## 🛠 Tecnologías
+- PHP 8+
+- Programación Orientada a Objetos
 
-Crea al menos 2 animales.
+## 🚀 Instalación
+1. Clonar el repositorio: `git clone ...`
+2. Ejecutar: `php -S localhost:8000`
 
-Ejercicio 2
-Escribe un programa que defina una clase Shape con un constructor que reciba como parámetros el ancho y alto. Define dos subclases; Triángulo y Rectángulo que hereden de Shape y que calculen respectivamente el área de la figura.
+## 📚 Contenidos
+- Modelado de animales con comportamiento común (hablar) y específico (Perro, Gato).
+- Jerarquía de figuras (Shape, Triángulo, Rectángulo, Círculo) con cálculo de área.
+- Sistema de notificaciones (Email, SMS, Correo) usando interfaces o clases abstractas.
 
-Importante
-
-Sí, es el mismo ejercicio que en POO1, pero aquí necesitamos que lo resuelvas aplicando alguno de los conceptos del tema POO2.
-
-Nivel 2
-Ejercicio 1
-Siguiendo el ejercicio anterior, imagina cómo ampliarías la estructura que has creado para representar un Círculo y su correspondiente cálculo de área.
-
-Nivel 3
-Ejercicio 1
-Imagina que estamos implementando un mecanismo de notificaciones.
-
-Las notificaciones notifican (como no podía ser de otra forma :)) un mensaje.
-
-Podemos notificarlo mediante Email, SMS o Correo ordinario.
-
-Realiza una estructura de clases que nos permita implementar todo ello.
+## 📸 Demo
+Ejecución en entorno local mostrando herencia, polimorfismo y abstracción.
